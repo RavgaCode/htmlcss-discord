@@ -17,14 +17,19 @@
 }
 /* HEADER */
 .topheader{
-    background-color: lightblue;
+    background-color: #255EE9;
     /* TEST */
     height: 100px;
 }
 .botheader{
-    background-color: darkblue;
-    /* TEST */
-    height: 400px;
+    background-image: url(../img/jumbo.png);
+    background-size: 600px auto;
+    background-repeat: no-repeat;
+}
+.logo{
+    display: block;
+    height: 50px;
+    width: auto;
 }
     /* MENU */
     .menu{
