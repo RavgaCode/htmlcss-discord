@@ -91,13 +91,14 @@
     }
     .big-btn{
         border-radius: 30px;
-        padding: 15px;
+        padding: 15px 15px 5px 15px;
         font-size: large;
     }
     .btn-black{
         background-color: black;
         color: white;
         border: 1px solid black;
+        padding: 15px;
     }
     .btn-white{
         background-color: white;
@@ -209,20 +210,30 @@ h2{
     padding: 10px 0;
     font-size: medium;
 }
+.first-ul{
+    width: 180px;
+}
 /* .footer-col{
     height: 100%;
     width: calc(100% / 5);
     border: 1px dotted black;
     background-color: greenyellow; */
 }
+#fl-it{
+    display: block;
+    height: 10px;
+    width: auto;
+}
+
 .social-icons{
 color: white;
 height: 70px;
 width: auto;
 }
-i[class^="Fa"]{
-    height: 10px;
+i[class^="fa"]{
+    height: 30px;
     color: white;
+    padding-right: 10px;
 }
 .bot-footer{
     background-color: #23272A;
@@ -230,13 +241,21 @@ i[class^="Fa"]{
     width: 100%;
 }
 .foot-input{
-    /* background-color: aquamarine; */
-    height: 80px;
+    /* background-color: aquamarine;
+    height: 80px; */
     align-self:flex-end;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+.footer-h{
+    font-size: 30px;
+}
 
-
+#black-ar{
+    color: black;
+}
+#fl-it{
+    height: 15px;
+}
