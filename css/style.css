@@ -5,6 +5,9 @@
     box-sizing: border-box;
 }
 /* COMMON */
+*{
+    font-family: 'Whitney', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
 .container{
     width: 80%;
     margin: auto;
@@ -29,7 +32,7 @@
 }
 .logo{
     display: block;
-    height: 80%;
+    height: 34px;
     width: auto;
 }
     /* MENU */
@@ -173,6 +176,9 @@ h2{
     font-size: 35px;
     padding:45px 0;
     background-image: url(img/stars.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .btn-blue{
     background-color: #7289DA;
@@ -181,7 +187,7 @@ h2{
 }
 /* FOOTER */
 .top-footer{
-    background-color: darkslategrey;
+    background-color: #23272A;
     height: 600px;
     width: 100%;
 }
@@ -192,20 +198,39 @@ h2{
     align-items: center;
     border-bottom: 2px solid white;
 }
-.footer-col{
+.flex-ul{
+    justify-content: space-between;
+}
+
+ .columns ul li:first-child{
+    color: #7289DA;
+} 
+.columns li{
+    padding: 10px 0;
+    font-size: medium;
+}
+/* .footer-col{
     height: 100%;
     width: calc(100% / 5);
     border: 1px dotted black;
-    background-color: greenyellow;
+    background-color: greenyellow; */
 }
-
+.social-icons{
+color: white;
+height: 70px;
+width: auto;
+}
+i[class^="Fa"]{
+    height: 10px;
+    color: white;
+}
 .bot-footer{
-    background-color: darkslategrey;
+    background-color: #23272A;
     height: 100px;
     width: 100%;
 }
 .foot-input{
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     height: 80px;
     align-self:flex-end;
     width: 100%;
